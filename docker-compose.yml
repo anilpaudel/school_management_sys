@@ -45,9 +45,9 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: school
-      MYSQL_ROOT_PASSWORD: x12345678y
+      MYSQL_ROOT_PASSWORD: firstpaddle
       MYSQL_USER: root
-      MYSQL_PASSWORD: x12345678y
+      MYSQL_PASSWORD: firstpaddle
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
